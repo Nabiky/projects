@@ -1,0 +1,23 @@
+<html>
+    <body>
+        
+        <script type ='text/javascript'>
+            
+            var myString = "56.02 degree centigrade";//note that only the 56 part of the myString variable’s value is considered a valid number when you’re dealing with integers. 
+                                                    //Anything after the 6 is consid- ered invalid and is ignored.
+            var myInt;
+            var myFloat;
+            
+            document.write("\"" + myString + "\" is " + parseInt(myString) + " as an integer"+ "<BR>");
+            myInt=parseInt(myString);
+            document.write("\" " + myString + "\" when converted to and integer equals " + myInt+ "<BR>");
+            //document.write("\"" + "\"");
+            myFloat = parseFloat(myString);
+            document.write("\"" + myString+ "\" when converted to floating point number equals " + myFloat);
+        </script>
+         
+         
+       
+    </body>
+    
+</html>
